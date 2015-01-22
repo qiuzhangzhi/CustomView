@@ -16,5 +16,6 @@
             </intent-filter>
         </activity>
         <activity android:name="com.grasp.customview.activitys.LableViewActivity"/>
+        <activity android:name=".activitys.RoundProgressBarActivity"/>
     </application>
 </manifest>

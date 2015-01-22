@@ -1,6 +1,7 @@
 package com.grasp.customview;
 
 import com.grasp.customview.activitys.LableViewActivity;
+import com.grasp.customview.activitys.RoundProgressBarActivity;
 
 import android.app.ListActivity;
 import android.content.Intent;
@@ -12,7 +13,7 @@ import android.widget.ListView;
 public class MainActivity extends ListActivity {
 
     /** Called when the activity is first created. */
-    public static final String[] options = { "ListView", "ExpandableListView"};
+    public static final String[] options = { "LableView", "RoundProgress"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +30,8 @@ public class MainActivity extends ListActivity {
             case 0:
                 intent = new Intent(this, LableViewActivity.class);
                 break;
+            case 1:
+                intent = new Intent(this, RoundProgressBarActivity.class);
         }
 
         startActivity(intent);
