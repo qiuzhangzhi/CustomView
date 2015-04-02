@@ -5,5 +5,6 @@
     <string name="timer_button_clicked">已发送（%1$ds）</string>
     <string name="title_activity_timer_button">TimerButtonActivity</string>
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_multi_touch">MultiTouchActivity</string>
 
 </resources>
