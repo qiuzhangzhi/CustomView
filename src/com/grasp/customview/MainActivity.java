@@ -2,6 +2,7 @@ package com.grasp.customview;
 
 import com.grasp.customview.activitys.LableViewActivity;
 import com.grasp.customview.activitys.RoundProgressBarActivity;
+import com.grasp.customview.activitys.TimerButtonActivity;
 
 import android.app.ListActivity;
 import android.content.Intent;
@@ -13,7 +14,7 @@ import android.widget.ListView;
 public class MainActivity extends ListActivity {
 
     /** Called when the activity is first created. */
-    public static final String[] options = { "LableView", "RoundProgress"};
+    public static final String[] options = { "LableView", "RoundProgress","TimerButton"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +33,10 @@ public class MainActivity extends ListActivity {
                 break;
             case 1:
                 intent = new Intent(this, RoundProgressBarActivity.class);
+                break;
+            case 2:
+            	intent = new Intent(this, TimerButtonActivity.class);
+            	break;
         }
 
         startActivity(intent);

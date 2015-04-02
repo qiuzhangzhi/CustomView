@@ -39,7 +39,11 @@
         <attr name="textSize" format="dimension" />
     </declare-styleable>
 
-
+    <declare-styleable name="TimerButton">
+        <attr name="unClickText" format="string" />
+        <attr name="clickedText" format="string"/>
+        <attr name="time" format="integer"/>
+    </declare-styleable>
 
 
 
