@@ -1,9 +1,13 @@
 package com.grasp.customview;
 
+import com.grasp.customview.activitys.CMImageViewActivity;
+import com.grasp.customview.activitys.DispalyActivity;
+import com.grasp.customview.activitys.FlakeActivity;
 import com.grasp.customview.activitys.LableViewActivity;
 import com.grasp.customview.activitys.MultiTouchActivity;
 import com.grasp.customview.activitys.RoundProgressBarActivity;
 import com.grasp.customview.activitys.TimerButtonActivity;
+import com.grasp.customview.widgets.CMImageViewButton;
 
 import android.app.ListActivity;
 import android.content.Intent;
@@ -15,7 +19,7 @@ import android.widget.ListView;
 public class MainActivity extends ListActivity {
 
     /** Called when the activity is first created. */
-    public static final String[] options = { "LableView", "RoundProgress","TimerButton","touch"};
+    public static final String[] options = { "LableView", "RoundProgress","TimerButton","touch","display","CMImageButton","deviceinfo","flake"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +44,18 @@ public class MainActivity extends ListActivity {
             	break;
             case 3:
             	intent = new Intent(this, MultiTouchActivity.class);
+            	break;
+            case 4:
+            	intent = new Intent(this, DispalyActivity.class);
+            	break;
+            case 5:
+            	intent = new Intent(this, CMImageViewActivity.class);
+            	break;
+            case 6:
+            	intent = new Intent(this, com.grasp.customview.activitys.device.MainActivity.class);
+            	break;
+            case 7:
+            	intent = new Intent(this, FlakeActivity.class);
             	break;
         }
 

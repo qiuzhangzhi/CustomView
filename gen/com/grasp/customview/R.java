@@ -183,53 +183,81 @@ containing a value of this type.
         public static final int pan_content_width=0x7f040001;
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
+        public static final int bg_story_start=0x7f020000;
+        public static final int ic_launcher=0x7f020001;
+        public static final int nor=0x7f020002;
+        public static final int pre=0x7f020003;
+        public static final int sel_cm=0x7f020004;
+        public static final int sweet1=0x7f020005;
+        public static final int sweet10=0x7f020006;
+        public static final int sweet2=0x7f020007;
+        public static final int sweet3=0x7f020008;
+        public static final int sweet4=0x7f020009;
+        public static final int sweet5=0x7f02000a;
+        public static final int sweet6=0x7f02000b;
+        public static final int sweet7=0x7f02000c;
+        public static final int sweet8=0x7f02000d;
+        public static final int sweet9=0x7f02000e;
     }
     public static final class id {
         public static final int FILL=0x7f060000;
         public static final int STROKE=0x7f060001;
-        public static final int button1=0x7f06000d;
-        public static final int checkbox_lock=0x7f060015;
-        public static final int distance=0x7f06000e;
+        public static final int button=0x7f060008;
+        public static final int button1=0x7f06000e;
+        public static final int checkbox_lock=0x7f06001b;
+        public static final int container=0x7f060011;
+        public static final int display=0x7f06000f;
+        public static final int distance=0x7f060013;
         public static final int drop=0x7f060005;
-        public static final int imageView=0x7f060010;
+        public static final int imageView=0x7f060016;
         public static final int left=0x7f060002;
-        public static final int list=0x7f060014;
+        public static final int list=0x7f06001a;
         public static final int middle=0x7f060003;
         public static final int none=0x7f060006;
         public static final int right=0x7f060004;
-        public static final int roundProgressBar1=0x7f060009;
-        public static final int roundProgressBar2=0x7f060008;
-        public static final int roundProgressBar3=0x7f06000b;
-        public static final int roundProgressBar4=0x7f06000a;
-        public static final int roundProgressBar5=0x7f06000c;
-        public static final int selection_first=0x7f060016;
-        public static final int selection_second=0x7f060017;
-        public static final int selection_third=0x7f060018;
-        public static final int text=0x7f060011;
+        public static final int roundProgressBar1=0x7f06000a;
+        public static final int roundProgressBar2=0x7f060009;
+        public static final int roundProgressBar3=0x7f06000c;
+        public static final int roundProgressBar4=0x7f06000b;
+        public static final int roundProgressBar5=0x7f06000d;
+        public static final int scroll=0x7f060012;
+        public static final int selection_first=0x7f06001c;
+        public static final int selection_second=0x7f06001d;
+        public static final int selection_third=0x7f06001e;
+        public static final int sweet_bg=0x7f060010;
+        public static final int text=0x7f060017;
         public static final int thumbnail=0x7f060007;
-        public static final int timer_button=0x7f06000f;
-        public static final int view_logall=0x7f060012;
-        public static final int view_logslop=0x7f060013;
+        public static final int timer_button=0x7f060014;
+        public static final int unique_id=0x7f060015;
+        public static final int view_logall=0x7f060018;
+        public static final int view_logslop=0x7f060019;
     }
     public static final class layout {
-        public static final int activity_cricle_progress=0x7f030000;
-        public static final int activity_lableview_layout=0x7f030001;
-        public static final int activity_multi_touch=0x7f030002;
-        public static final int activity_timer_button=0x7f030003;
-        public static final int gesture_scroll=0x7f030004;
-        public static final int intercept_row=0x7f030005;
-        public static final int main=0x7f030006;
-        public static final int move_logger=0x7f030007;
-        public static final int touch_intercept=0x7f030008;
-        public static final int touch_listener=0x7f030009;
+        public static final int activity_cmimage_view=0x7f030000;
+        public static final int activity_cricle_progress=0x7f030001;
+        public static final int activity_dispaly=0x7f030002;
+        public static final int activity_flake=0x7f030003;
+        public static final int activity_lableview_layout=0x7f030004;
+        public static final int activity_multi_touch=0x7f030005;
+        public static final int activity_timer_button=0x7f030006;
+        public static final int activity_unique_id=0x7f030007;
+        public static final int gesture_scroll=0x7f030008;
+        public static final int intercept_row=0x7f030009;
+        public static final int main=0x7f03000a;
+        public static final int move_logger=0x7f03000b;
+        public static final int touch_intercept=0x7f03000c;
+        public static final int touch_listener=0x7f03000d;
     }
     public static final class string {
         public static final int app_name=0x7f050000;
         public static final int hello_world=0x7f050003;
         public static final int timer_button_clicked=0x7f050001;
+        public static final int title_activity_cmimage_view=0x7f050006;
+        public static final int title_activity_dispaly=0x7f050005;
+        public static final int title_activity_flake=0x7f050008;
         public static final int title_activity_multi_touch=0x7f050004;
         public static final int title_activity_timer_button=0x7f050002;
+        public static final int title_activity_unique_id=0x7f050007;
     }
     public static final class styleable {
         /**  These are the attributes that we want to retrieve for
